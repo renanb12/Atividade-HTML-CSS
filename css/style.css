@@ -1,0 +1,203 @@
+body {
+    background-color: #000;
+}
+
+nav {
+    display: flex;
+    background-color: #741A9E;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #FF5F43;
+}
+
+section {
+    background-image: url("../img/party-1920x1080-tisto-wallpaper-preview.png") ;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content a, p, h1 {
+    color: white;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    width: 400px;
+    height: 300px;
+    border-radius: 13px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 36px;
+    padding: 30px;
+}
+
+.content p {
+    font-size: 12px;
+}
+
+.saiba-mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #741A9E;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.item {
+    background-color: #741A9E;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    border-radius: 13px;
+}
+
+.item h1, p, img {
+    padding-top: 20px;
+}
+
+.item h1 {
+    font-size: 20px;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.box2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.text {
+    margin-right: 100px;
+}
+
+.text h1{
+    font-size: 43px;
+}
+
+.box-image {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.box-image img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid white;
+}
+
+.box-formulario {
+    margin-top: 200px;
+    background-image: url("../img/party-1920x1080-tisto-wallpaper-preview.png") ;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.9);
+    width: 450px;
+    border-radius: 8px;
+}
+
+.formulario h1, p {
+    color: #000;
+}
+
+.formulario h1 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.formulario input {
+    border-color: gray;
+    width: 90%;
+    height: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: #741A9E;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
